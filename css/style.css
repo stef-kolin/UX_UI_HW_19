@@ -1,63 +1,75 @@
-
 .body {
-    font-family: "bodoni moda", "josefin sans", sans;
-    font-size: 20px;
-    background-color: #212121;
-   
+  font-family: "bodoni moda", "josefin sans", sans;
+  font-size: 20px;
+  background-color: #212121;
+
 }
 
 /* HEADER BAR START */
 .inline-block {
-    display: inline-block;
-    vertical-align: top;
+  display: inline-block;
+  vertical-align: top;
 }
 
 .navigation {
-  
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-top: 60px;
   margin-right: 10%;
   margin-left: 5%;
-  height: 5.5%;
+  height: 5.5%;}
+
+
+
+  .hoveron {
+    display: none;
+    left: 5.4%;
+  }
+
+  .hoveroff {
   
-  
+  }
+
+
+.navmiddle {
+ 
 }
+
 #JobTitle {
-    text-align: center;
-    display: inline-block;
-    font-family: josefin sans;
-    font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  font-family: josefin sans;
+  font-weight: 400;
 }
 
 
 .dropdownbtn {
-    background-color: transparent;
+  background-color: transparent;
   color: white;
   padding: 16px;
   font-size: 27px;
   font-family: josefin sans;
-  font-weight: 100; 
+  font-weight: 100;
   border: none;
   cursor: pointer;
-   }
+}
 
 .dropdown {
   position: relative;
-  display: inline-block;  
+  display: inline-block;
 }
 
 .dropdown-content {
   background-color: #212121;
   display: none;
-  position: absolute;5%
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: absolute;
+  5% min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   font-size: 27px;
   font-family: josefin sans;
-  font-weight: 100; 
+  font-weight: 100;
 }
 
 .dropdown-content a {
@@ -66,16 +78,17 @@
   text-decoration: none;
   display: block;
   height: 30px;
- 
+
 }
 
 .dropdown-content a:hover {
   background-color: #212121;
-font-weight: 300;}
+  font-weight: 300;
+}
 
 .dropdown:hover .dropdown-content {
   display: block;
-  
+
 }
 
 .dropdown:hover .dropdownbtn {
@@ -93,56 +106,60 @@ font-weight: 300;}
   height: 35px;
   margin-left: 10px;
   margin-top: 10px;
-  text-align:center;
-  
+  text-align: center;
+
 }
+
 .connectbtn:hover {
-background-color: #212121;
-color: white;
-border: 2px solid white;
+  background-color: #212121;
+  color: white;
+  border: 2px solid white;
 }
 
 .navright {
-    display: flex;
+  display: flex;
 }
 
 /* HEADER BAR END */
 
 /* about.html Page START */
- 
+
 .AboutMeformatting {
   display: flex;
   width: 50%;
   align-items: center;
   margin-left: 8%;
- 
+
 }
+
 .aboutmesection {
   display: flex;
   justify-content: center;
   margin-top: 3%;
   align-items: center;
-  
+
 }
 
 .content {
   align-items: flex-end;
   margin-right: 40px;
-   
+
 }
 
 .content img {
   border: 1px solid white;
-}  
-.resumebtn {
-border-radius: 12px;
-font-family: bodoni moda;
-background-color: #212121;
-color: white;
-border: 2px solid white;
-height: 35px;
-width: 150px;
 }
+
+.resumebtn {
+  border-radius: 12px;
+  font-family: bodoni moda;
+  background-color: #212121;
+  color: white;
+  border: 2px solid white;
+  height: 35px;
+  width: 150px;
+}
+
 .resumebtn:hover {
   background-color: white;
   color: black;
@@ -152,10 +169,11 @@ width: 150px;
 
 .vertical-line {
   border-left: 3px solid white;
-  height: 625px;  
+  height: 625px;
   margin-right: 40px;
-   
+
 }
+
 /* about.html Page END */
 
 
@@ -331,60 +349,63 @@ width: 150px;
     ;
   }
 }
+
 /* work.html Page END */
 
 /* index.html Page START */
 
 .stefkolinpagesetup {
-    display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 3%;
   margin-right: 80px;
   margin-left: 80px;
-  }
+}
 
-  .blankleftside {
+.blankleftside {
   height: 325px;
   width: 315px;
-  }
+}
+
 .vertical-line-index {
-    border-left: 3px solid white;
-  height: 375px;  
+  border-left: 3px solid white;
+  height: 375px;
   margin-right: 40px;
-      
+
 }
 
 .stefkolindescription {
   height: 325px;
   width: 400px;
   margin-top: 25px;
- 
-  }
 
-  .indexpagedownarrow {
+}
+
+.indexpagedownarrow {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 7%;
   width: 10%;
   height: 10%;
-    
-  }
-  /* index.html Page END */
+
+}
+
+/* index.html Page END */
 
 
-  .businesscard {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background-color: #ffffff;
-    margin-top: 7%;
-    width: 40%;
-    height: 35%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.businesscard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #ffffff;
+  margin-top: 7%;
+  width: 40%;
+  height: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .buscardlogo {
   margin-top: 14%;
@@ -394,32 +415,34 @@ width: 150px;
   display: flex;
   flex-direction: row;
   margin-top: 3%;
-  
+
 }
-  .vertical-line-buscard-a {
-    border-left: 2px solid black;
-  height: 275px;  
+
+.vertical-line-buscard-a {
+  border-left: 2px solid black;
+  height: 275px;
   margin-right: 0px;
 
-  }
+}
 
-  .vertical-line-buscard-b {
-    border-left: 2px solid #13CFF8;
-  height: 275px;  
+.vertical-line-buscard-b {
+  border-left: 2px solid #13CFF8;
+  height: 275px;
   margin-right: 0px;
-  
-  }
 
-  .vertical-line-buscard-c {
-    border-left: 2px solid #FFF200;
-  height: 275px;  
+}
+
+.vertical-line-buscard-c {
+  border-left: 2px solid #FFF200;
+  height: 275px;
   margin-right: 5px;
-  
-  }
 
-  .buscardinfo {
-    argin-right: 50px;
-  }
+}
+
+.buscardinfo {
+  argin-right: 50px;
+}
+
 .buscardtitle {
   margin;
   color: black;
@@ -430,11 +453,11 @@ width: 150px;
 .buscardcontact {
   margin: 0;
 }
+
 #li {
- text-indent: 0;
+  text-indent: 0;
 }
 
 .buscardname {
-   margin-top: -25px;
+  margin-top: -25px;
 }
-

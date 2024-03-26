@@ -6,85 +6,96 @@
         href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
         rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
 
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/stylecopy.css" rel="stylesheet" type="text/css">
     <style>
-        h2 { color: white; }
-        h3 { color: white; }
+        h2 {
+            color: white;
+        }
 
-        p {   color: white; }
+        h3 {
+            color: white;
+        }
 
-       
+        p {
+            color: white;
+        }
     </style>
 </head>
 
 <body class="body">
 
-<!--HEADER BAR html START-->
-<header class="navigation">
+    <!--HEADER BAR html START-->
+    <header class="navigation">
 
-                <!--LEFT SIDE OF HEADER BAR-->
-<div class="navleft">
-    <a href="index.html">
-            <img src="images\Nav Bar\sk-brand-logo.png" alt="Brand Logo for Stef Kolin Website" width="125" height="50">
-        </a>
+        <!--LEFT SIDE OF HEADER BAR-->
+        <div class="navleft">
+            <a href="index.html">
+                <img src="images\Nav Bar\sk-brand-logo.png" alt="Brand Logo for Stef Kolin Website" width="125"
+                height="50" class="hoveroff">
+
+                <img src="images\Nav Bar\sk-brand-logo_2.png" width="125" height="50" class="hoveron">
+            </a>
         </div>
 
-                <!--MIDDLE SECTION OF HEADER BAR-->
-                    <!--drop down btn code start-->
-<div class="navmiddle">
-        <div class="dropdown">
-            <button class="dropdownbtn">Stef Kolin</button>
-            <div class="dropdown-content">
-                <a href="work.html">Work</a>
-                <a href="#">Skills</a>
-                <a href="#">Resume</a>
-                <a href="contact.html">Contact</a>
-                <a href="about.html">About</a>
+        <!--MIDDLE SECTION OF HEADER BAR-->
+        <!--drop down btn code start-->
+        <div class="navmiddle">
+            <div class="dropdown">
+                <button class="dropdownbtn">Stef Kolin</button>
+                <div class="dropdown-content">
+                    <a href="work.html">Work</a>
+                    <a href="#">Skills</a>
+                    <a href="#">Resume</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <!--drop down btn code end-->
+            <h2 id="JobTitle"> /Jr UX Designer </h2>
+        </div>
+
+        <!--RIGHT SIDE OF HEADER BAR-->
+        <div class="navright">
+            <div>
+                <img src="images\Nav Bar\Profile-Icon.png" alt="Basic Profile Icon.  Click to Open." width="56"
+                    height="52" class="profileicon">
+            </div>
+            <button class="ConnectBtn">Connect</button>
+        </div>
+
+    </header>
+    <hr class="navdivider">
+    <!--HEADER BAR html END -->
+
+    <!--index.html START-->
+    <section class="StefKolinSection">
+
+        <div class="stefkolinpagesetup">
+            <div class="blankleftside"> </div>
+
+            <div class="vertical-line-index"></div>
+
+            <div class="stefkolindescription">
+                <h3> Stef Kolin </h3>
+                <p>
+                    A proud graduate of the rigorous UX/UI bootcamp at the prestigious Northwestern University.
+                <p>
+                    A conduit for empathetically solving user problems with intuitive and delightful digital solutions.
+                </p>
             </div>
         </div>
-                     <!--drop down btn code end-->
-        <h2 id="JobTitle"> /Jr UX Designer </h2>
-</div>
 
-            <!--RIGHT SIDE OF HEADER BAR-->               
-<div class="navright"> 
-    <div>
-    <img src="images\Nav Bar\Profile-Icon.png" alt="Basic Profile Icon.  Click to Open." width="56" height="52" class="profileicon">
-    </div>
-    <button class="ConnectBtn">Connect</button>
-</div>
-    
-</header>  
-<hr class="navdivider">
-<!--HEADER BAR html END -->
+        <div class="indexpagedownarrow">
+            <a href="work.html">
+                <img src="images\toolkit images\indexpagedownarrow.png" alt="down arrow to get to work page" width="50"
+                    height="50">
+            </a>
+        </div>
+    </section>
 
-<!--index.html START-->
-<section class="StefKolinSection">
-
-    <div class="stefkolinpagesetup">
-        <div class="blankleftside"> </div>
-               
-        <div class="vertical-line-index"></div>
-
-        <div class="stefkolindescription">
-            <h3>    Stef Kolin     </h3>
-            <p>
-                A proud graduate of the rigorous UX/UI bootcamp at the prestigious Northwestern University.
-            <p>
-                A conduit for empathetically solving user problems with intuitive and delightful digital solutions.
-            </p>
-        </div >
-    </div>
-
-    <div class="indexpagedownarrow">
-        <a href="work.html">
-        <img src="images\toolkit images\indexpagedownarrow.png" alt="down arrow to get to work page" width="50" height="50" >
-    </a>
-    </div>
-</section>
- 
 
 </body>
 
@@ -93,7 +104,7 @@
 
 
 
-
-
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+<script src="js/indexcopy.js"></script>
 
 </html>
